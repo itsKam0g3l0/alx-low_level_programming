@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
-*main - this the entry point
-*return : 0 (success)
+* main - Entry point here
+*
+* Description : a C program that prints exactly
+*
+* Return: always 0 (success)
 */
 int main(void)
 {
