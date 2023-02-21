@@ -1,9 +1,8 @@
 #include <stdlib.h>
-#include <time.h>i
+#include <time.h>
 #include <stdio.h>
 /**
- * main - print the last digit of the number
- * stored in the variable
+ * main - Print the last digit of the number
  * Return: Always (0)
 */
 int main(void)
