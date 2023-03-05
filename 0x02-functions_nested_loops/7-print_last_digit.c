@@ -6,10 +6,8 @@
 * @ld: integer
 * Return: last digit
 */
-int print_last_digit(int)
+int print_last_digit(int ld)
 {
-	int ld;
-
 	ld = (ld % 10);
 	if (ld < 0)
 	{
