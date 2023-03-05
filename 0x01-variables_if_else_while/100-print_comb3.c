@@ -17,8 +17,10 @@ int main(void)
 		{
 			continue;
 		}
-		putchar(n);
-		putchar(a);
+		char c = (" %d,%d,", n, a);
+		char d = (" %d,%d," a, n);
+		putchar(c);
+		putchar(d);
 		putchar(',');
 		putchar(' ');
 }
