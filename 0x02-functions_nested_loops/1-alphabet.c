@@ -1,4 +1,4 @@
-#include "1-main.c"
+#include "main.h"
 /**
  * print_alphabet - Entry here
  * Description: prints the alphabet in lowercase

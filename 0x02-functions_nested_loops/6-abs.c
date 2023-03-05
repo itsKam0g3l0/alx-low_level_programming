@@ -3,10 +3,10 @@
  * _abs - checks for absolut value of int
  *
  * @int: integer output
- *
+ * @i: interger
  * Return: absolute value
  */
-int _abs(int)
+int _abs(int i)
 {
 	int i;
 
