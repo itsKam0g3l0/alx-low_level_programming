@@ -1,30 +1,26 @@
 #include <stdio.h>
 /**
- * main - Entry
- * Description:  prints all  all possible different combinations of two digits.
- * Return: Always (0)
+ * main - prints out unique two digit combinations
+ *
+ * Return: (0)
  */
+
 int main(void)
 {
-	int n;
-	int a;
+	int a, b;
 
-	for (n = 48; n <= 57; n++)
+	for (a = 0; a <= 8; i++)
 	{
-	for (a = 48; a <= 57; a++)
-{
-		if (n == a)
+		for (b = a + 1; b <= 9; j++)
 		{
-			continue;
+			putchar(a + '0');
+			putchar(b + '0');
+			if (a < 8)
+				{
+				putchar(',');
+				putchar(' ');
+				}
 		}
-		char c = (" %d,%d,", n, a);
-		char d = (" %d,%d," a, n);
-		putchar(c);
-		putchar(d);
-		putchar(',');
-		putchar(' ');
-}
-}
-	putchar('\n');
-	return (0);
+		}
+		return (0);
 }
