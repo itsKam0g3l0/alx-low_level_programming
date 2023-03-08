@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - check if c is digit
+ * mul - check if c is digit
  *@a: input integer 1
  *@b: input integer 2
- * Return: Always 0.
+ * Return: product of a and b
  */
 int mul(int a, int b)
 {
-        return (a * b);
+	return (a * b);
 }
